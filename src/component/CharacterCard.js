@@ -7,11 +7,16 @@ function CharacterCard(props) {
   } = props;
   return (
     <div key={id}>
-      <p>{name}</p>
-      <img src={image} alt={name} />
-      <button type="button" onClick={handleDetails}>
-        <Link className="detailedLink" id={id} to={`/details/${id}`}>Details</Link>
-      </button>
+      <div className="imageContainer">
+        <img src={image} alt={name} className="imageCharacterCard" />
+      </div>
+      <div className="cardFooter">
+        <p className="nameCharacter">{name}</p>
+        <button type="button" onClick={handleDetails} className="clickBtnCard">
+          <Link className="detailedLink" id={id} to={`/details/${id}`}>Details</Link>
+        </button>
+      </div>
+
     </div>
   );
 }
@@ -23,5 +28,4 @@ CharacterCard.propTypes = {
   handleDetails: PropTypes.func.isRequired,
 };
 
-// handleDetails
 export default CharacterCard;

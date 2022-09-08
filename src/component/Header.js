@@ -1,6 +1,6 @@
 function Header() {
   return (
-    <h1>Rick and Morty</h1>
+    <h1 className="headerText">Rick and Morty</h1>
   );
 }
 

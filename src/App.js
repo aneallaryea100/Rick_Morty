@@ -14,11 +14,11 @@ function App() {
     dispatch(getCharacterData());
   }, []);
 
-  const [charId, setCharId] = useState(1);
+  const [charId, setCharId] = useState(7);
 
   const handleDetails = (event) => {
-    const btn = event.target;
-    setCharId(Number(btn.charId));
+    const btn = event.target.id;
+    setCharId(Number(btn));
   };
 
   return (

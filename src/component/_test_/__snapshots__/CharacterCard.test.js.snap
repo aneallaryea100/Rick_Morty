@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CharacterCard test snapshot 1`] = `
+Array [
+  <div>
+    <div
+      className="imageContainer"
+    >
+      <img
+        className="imageCharacterCard"
+      />
+    </div>
+    <div
+      className="cardFooter"
+    >
+      <p
+        className="nameCharacter"
+      />
+      <button
+        className="clickBtnCard"
+        type="button"
+      >
+        <a
+          className="detailedLink"
+          href="/details/undefined"
+          onClick={[Function]}
+        >
+          Details
+        </a>
+      </button>
+    </div>
+  </div>,
+  ",",
+]
+`;

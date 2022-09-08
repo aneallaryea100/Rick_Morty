@@ -1,27 +1,115 @@
-body {
-  margin: 0;
-  font-family:
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    'Roboto',
-    'Oxygen',
-    'Ubuntu',
-    'Cantarell',
-    'Fira Sans',
-    'Droid Sans',
-    'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-code {
-  font-family:
-    source-code-pro,
-    Menlo,
-    Monaco,
-    Consolas,
-    'Courier New',
-    monospace;
+li{
+  list-style-type: none;
+  color: azure;
+  font-size: 1.5rem;
+  margin: 1rem;
+  display: flex;
+}
+
+.headerText{
+  color: #277bc0;
+  margin: 1rem 6rem;
+}
+
+.characterMainContainer{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.imageContainer{
+  width: 35%;
+}
+
+
+.cardMaincontainer{
+  border-radius: 2%;
+  border: 2px solid #277bc0;
+  margin: 1rem;
+}
+
+.cardFooter{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #277bc0;
+}
+
+.nameCharacter{
+  font-size: medium;
+  color: azure;
+  font-style: oblique;
+}
+
+.clickBtnCard{
+  border: none;
+  width: 7rem;
+  height: 1rem;
+  background-color: #277bc0;
+}
+
+.clickBtnCard a{
+  color: azure;
+  text-decoration: none;
+  font-size: larger;
+  font-style: oblique;
+}
+
+.imageContainer{
+ 
+}
+
+.imageCharacterCard{
+  
+}
+
+.containerDetail{
+  display: flex;
+  justify-content: space-around    ;
+  margin: 10rem auto;
+  background-color: #277bc0;
+  width: 60%;
+}
+
+.backBtn{
+  border: none;
+  background-color: azure;
+  width: 7rem;
+  color: #277bc0;
+  padding: 0.3rem;
+  border-radius: 2px;
+  right: 18rem;
+  bottom: 15rem
+}
+
+
+
+
+
+@media only screen and (max-width: 786px) {
+  body {
+    background-color: lightblue;
+  }
+
+  .imageContainer{
+    width: 20%;
+  }
+
+  .backBtn{
+    border: none;
+    background-color: #277bc0;
+    position: absolute;
+    width: 7rem;
+    color: azure;
+    padding: 0.3rem;
+    border-radius: 2px;
+    right: 15rem;
+    bottom: 7rem
+  }
+ 
 }

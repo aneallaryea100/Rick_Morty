@@ -8,7 +8,7 @@ function CharacterList(props) {
   return (
     <>
       {characters.map((character) => (
-        <div key={character.id}>
+        <div key={character.id} className="cardMaincontainer">
           <CharacterCard
             name={character.name}
             id={character.id}

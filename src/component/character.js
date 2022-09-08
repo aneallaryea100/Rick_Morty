@@ -14,7 +14,7 @@ function Character(props) {
   }, []);
 
   return (
-    <div>
+    <div className="characterMainContainer">
       <CharacterList characters={characters} handleDetails={handleDetails} />
     </div>
 
