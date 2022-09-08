@@ -1,8 +1,8 @@
-body{
+body {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-li{
+li {
   list-style-type: none;
   color: azure;
   font-size: 1.5rem;
@@ -10,73 +10,64 @@ li{
   display: flex;
 }
 
-.headerText{
+.headerText {
   color: #277bc0;
   margin: 1rem 6rem;
 }
 
-.characterMainContainer{
+.characterMainContainer {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-.imageContainer{
+.imageContainer {
   width: 35%;
 }
 
-
-.cardMaincontainer{
+.cardMaincontainer {
   border-radius: 2%;
   border: 2px solid #277bc0;
   margin: 1rem;
 }
 
-.cardFooter{
+.cardFooter {
   display: flex;
   justify-content: space-around;
   align-items: center;
   background-color: #277bc0;
 }
 
-.nameCharacter{
+.nameCharacter {
   font-size: medium;
   color: azure;
   font-style: oblique;
 }
 
-.clickBtnCard{
+.clickBtnCard {
   border: none;
   width: 7rem;
   height: 1rem;
   background-color: #277bc0;
 }
 
-.clickBtnCard a{
+.clickBtnCard a {
   color: azure;
   text-decoration: none;
   font-size: larger;
   font-style: oblique;
 }
 
-.imageContainer{
- 
-}
-
-.imageCharacterCard{
-  
-}
-
-.containerDetail{
+.containerDetail {
   display: flex;
-  justify-content: space-around    ;
+  justify-content: space-around;
   margin: 10rem auto;
   background-color: #277bc0;
   width: 60%;
 }
 
-.backBtn{
+.backBtn {
   border: none;
   background-color: azure;
   width: 7rem;
@@ -84,23 +75,19 @@ li{
   padding: 0.3rem;
   border-radius: 2px;
   right: 18rem;
-  bottom: 15rem
+  bottom: 15rem;
 }
-
-
-
-
 
 @media only screen and (max-width: 786px) {
   body {
     background-color: lightblue;
   }
 
-  .imageContainer{
+  .imageContainer {
     width: 20%;
   }
 
-  .backBtn{
+  .backBtn {
     border: none;
     background-color: #277bc0;
     position: absolute;
@@ -109,7 +96,6 @@ li{
     padding: 0.3rem;
     border-radius: 2px;
     right: 15rem;
-    bottom: 7rem
+    bottom: 7rem;
   }
- 
 }
