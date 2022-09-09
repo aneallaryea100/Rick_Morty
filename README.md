@@ -41,6 +41,9 @@ Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
 
+## VIDEO ABOUT THE PROJECT
+[LOOM VIDEO](https://www.loom.com/share/23931d53e3024e3a82273aa223b6190a)
+
 ## Show your support
 
 Give a ⭐️ if you like this project!
