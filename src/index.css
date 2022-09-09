@@ -61,7 +61,7 @@ li {
 
 .containerDetail {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   margin: 10rem auto;
   background-color: #277bc0;
   width: 60%;
@@ -76,12 +76,19 @@ li {
   border-radius: 2px;
   right: 18rem;
   bottom: 15rem;
+  cursor: pointer;
+  text-decoration: none;
 }
 
-@media only screen and (max-width: 786px) {
-  body {
-    background-color: lightblue;
-  }
+.imageCharacter{
+  width: 50.99%;
+}
+
+.mainImage{
+  width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
 
   .imageContainer {
     width: 20%;
@@ -89,13 +96,31 @@ li {
 
   .backBtn {
     border: none;
-    background-color: #277bc0;
-    position: absolute;
+    background-color: azure;
     width: 7rem;
-    color: azure;
+    color: #277bc0;
     padding: 0.3rem;
     border-radius: 2px;
-    right: 15rem;
-    bottom: 7rem;
+    right: 18rem;
+    bottom: 15rem;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  .containerDetail {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 10rem auto;
+    background-color: #277bc0;
+    width: 60%;
+  }
+
+  .imageCharacter{
+    width: 99.99%;
+  }
+
+  .mainImage{
+    width: 100%;
   }
 }

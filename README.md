@@ -1,57 +1,40 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Rick and Morty
 
-> Description the project.
+> Rick and Morty is a American adult animated science-fiction sitcom. This web application fetches data from the rick and morty API and allows user to know more about each character in the sitcom. This web application is built with React and Redux. 
 
 
-## Built With
+## Built With 
 
-- Major languages
-- Frameworks
-- Technologies used
+- React
+- Redux/Redux Toolkit
+- Jest
 
 ## Live Demo (if available)
 
 [Live Demo Link](https://livedemo.com)
 
 
-## Getting Started
+## Set up(To get a local copy up and running follow these simple example steps.)
+* Clone this repo : https://github.com/aneallaryea100/Rick_Morty.gitLeaderboard.git
+* Run npm install if you don't have node.js installed on your computer.
+* Run npm run build and npm start in your terminal to get the project running.
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+## Tech ⌘⇧
+- **HTML & CSS best practices:** Correct use of tags, elements, properties and syntax.
+- **Gitflow:**  Correct use of Branches for deployment and features development.
+- **REACT:**  Used to set the basic structure.
+- **REDUX:** Centralizing application's state.
+- **MARVEL-API:** Fetching data.
+- **Webpack:**  Source development for production bundling.
+- **Linters Check:** Local and Pull Request Github workflows to check for stylistic errors, bugs and syntax errors in code.
 
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
-
-## Authors
-
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
+## AUTHOR
+👤 Aneal Laryea
+* Github: [@aneallaryea](https://github.com/aneallaryea100)
+* LinkdIn: [@aneallaryea](https://www.linkedin.com/in/nii-aneal-84ba7a147)
+* Twitter: [@aneallaryea](https://twitter.com/AnealLaryea)
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
@@ -63,10 +46,12 @@ Feel free to check the [issues page](../../issues/).
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
-
+- Rick and Morty API
 - Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Special thanks to my friends Alzubaire, Karla and Natasha whao are always to give me feedbacks.
+
+## Design Template
+* I give credit to [Nelson Sakwa](https://www.behance.net/sakwadesignstudio) the [author of the original design](https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs))
 
 ## 📝 License
 
