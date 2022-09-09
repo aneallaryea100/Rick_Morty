@@ -80,16 +80,15 @@ li {
   text-decoration: none;
 }
 
-.imageCharacter{
+.imageCharacter {
   width: 50.99%;
 }
 
-.mainImage{
+.mainImage {
   width: 100%;
 }
 
 @media only screen and (max-width: 768px) {
-
   .imageContainer {
     width: 20%;
   }
@@ -116,11 +115,11 @@ li {
     width: 60%;
   }
 
-  .imageCharacter{
+  .imageCharacter {
     width: 99.99%;
   }
 
-  .mainImage{
+  .mainImage {
     width: 100%;
   }
 }
