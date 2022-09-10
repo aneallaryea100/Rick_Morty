@@ -6,7 +6,7 @@ function CharacterCard(props) {
     id, image, name, handleDetails,
   } = props;
   return (
-    <div key={id}>
+    <div key={id} className="cardCharacters1">
       <div className="imageContainer">
         <img src={image} alt={name} className="imageCharacterCard" />
       </div>

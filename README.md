@@ -11,9 +11,9 @@
 - Redux/Redux Toolkit
 - Jest
 
-## Live Demo (if available)
+## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://regal-fox-cbfb6c.netlify.app/)
 
 
 ## Set up(To get a local copy up and running follow these simple example steps.)

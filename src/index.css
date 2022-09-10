@@ -1,5 +1,52 @@
 body {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #2e29379c;
+  margin: 0;
+}
+
+.headerDiv{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color:#2f485d;
+  margin-bottom: 20px;
+}
+
+
+.headerIcons {
+  display: flex;
+  gap: 14px;
+}
+
+.mic {
+  width: 30px;
+  height: 35px;
+}
+
+.setting {
+  width: 30px;
+  height: 35px;
+}
+
+.backIcon{
+  display: none;
+}
+
+.inputField{
+  outline: none;
+  border: none;
+  padding: 0.5rem;
+  background-color: #277bc0;
+  color: azure;
+  border-radius: 2px;
+  width: 40%;
+  margin-bottom:20px;
+}
+
+::placeholder {
+  color: azure;
+  text-align: center;
+
 }
 
 li {
@@ -11,8 +58,8 @@ li {
 }
 
 .headerText {
-  color: #277bc0;
-  margin: 1rem 6rem;
+  color: #dce3e9;
+  
 }
 
 .characterMainContainer {
@@ -22,14 +69,28 @@ li {
   justify-content: center;
 }
 
+.layoutCharInput{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .imageContainer {
   width: 35%;
+}
+
+.theCardHolders{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .cardMaincontainer {
   border-radius: 2%;
   border: 2px solid #277bc0;
-  margin: 1rem;
+  margin: 0.2rem;
+  background-color: #277bc0;
 }
 
 .cardFooter {
@@ -49,8 +110,8 @@ li {
   border: none;
   width: 7rem;
   height: 1rem;
-  background-color: #277bc0;
-}
+  background-color: #277bc0;;
+  }
 
 .clickBtnCard a {
   color: azure;
@@ -88,9 +149,45 @@ li {
   width: 100%;
 }
 
+
 @media only screen and (max-width: 768px) {
+  .headerDiv{
+    display: flex;
+    align-items: center;
+    background-color:#2f485d;
+    margin-bottom: 20px;
+  }
+
+  .theCardHolders {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    margin-top: 48px;
+}
+
+ .cardMaincontainer {
+    border: 2px solid #277bc0;
+    margin: 0.1rem;    /* background-color: #277bc0; */
+    padding: 20px;
+  }
+
+  .theCardHolders > .cardMaincontainer:nth-child(4n-1),
+.theCardHolders > .cardMaincontainer:nth-child(4n-2) {
+  background: #2e29379c;
+}
+
   .imageContainer {
-    width: 20%;
+    width: 100%;
+  }
+
+  .imageCharacterCard{
+    width: 100%;
+  }
+
+  .cardFooter {
+    display: inline;
+    text-align: center;
+    width: 100%;
   }
 
   .backBtn {
@@ -104,6 +201,13 @@ li {
     bottom: 15rem;
     cursor: pointer;
     text-decoration: none;
+  }
+
+  .clickBtnCard {
+    border: none;
+    width: 100%;
+    height: 1rem;
+    background-color: #277bc0;
   }
 
   .containerDetail {
@@ -120,6 +224,10 @@ li {
   }
 
   .mainImage {
+    width: 100%;
+  }
+
+  .cardCharacters1{
     width: 100%;
   }
 }
