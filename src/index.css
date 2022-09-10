@@ -4,14 +4,13 @@ body {
   margin: 0;
 }
 
-.headerDiv{
+.headerDiv {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color:#2f485d;
+  background-color: #2f485d;
   margin-bottom: 20px;
 }
-
 
 .headerIcons {
   display: flex;
@@ -28,11 +27,11 @@ body {
   height: 35px;
 }
 
-.backIcon{
+.backIcon {
   display: none;
 }
 
-.inputField{
+.inputField {
   outline: none;
   border: none;
   padding: 0.5rem;
@@ -40,13 +39,12 @@ body {
   color: azure;
   border-radius: 2px;
   width: 40%;
-  margin-bottom:20px;
+  margin-bottom: 20px;
 }
 
 ::placeholder {
   color: azure;
   text-align: center;
-
 }
 
 li {
@@ -59,7 +57,6 @@ li {
 
 .headerText {
   color: #dce3e9;
-  
 }
 
 .characterMainContainer {
@@ -69,7 +66,7 @@ li {
   justify-content: center;
 }
 
-.layoutCharInput{
+.layoutCharInput {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -80,7 +77,7 @@ li {
   width: 35%;
 }
 
-.theCardHolders{
+.theCardHolders {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -110,8 +107,8 @@ li {
   border: none;
   width: 7rem;
   height: 1rem;
-  background-color: #277bc0;;
-  }
+  background-color: #277bc0;
+}
 
 .clickBtnCard a {
   color: azure;
@@ -149,12 +146,11 @@ li {
   width: 100%;
 }
 
-
 @media only screen and (max-width: 768px) {
-  .headerDiv{
+  .headerDiv {
     display: flex;
     align-items: center;
-    background-color:#2f485d;
+    background-color: #2f485d;
     margin-bottom: 20px;
   }
 
@@ -163,24 +159,24 @@ li {
     grid-template-columns: 1fr 1fr;
     justify-content: center;
     margin-top: 48px;
-}
+  }
 
- .cardMaincontainer {
+  .cardMaincontainer {
     border: 2px solid #277bc0;
     margin: 0.1rem;    /* background-color: #277bc0; */
     padding: 20px;
   }
 
   .theCardHolders > .cardMaincontainer:nth-child(4n-1),
-.theCardHolders > .cardMaincontainer:nth-child(4n-2) {
-  background: #2e29379c;
-}
+  .theCardHolders > .cardMaincontainer:nth-child(4n-2) {
+    background: #2e29379c;
+  }
 
   .imageContainer {
     width: 100%;
   }
 
-  .imageCharacterCard{
+  .imageCharacterCard {
     width: 100%;
   }
 
@@ -227,7 +223,7 @@ li {
     width: 100%;
   }
 
-  .cardCharacters1{
+  .cardCharacters1 {
     width: 100%;
   }
 }
