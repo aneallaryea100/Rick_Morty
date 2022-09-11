@@ -4,6 +4,7 @@ import React, { useEffect, useState } from 'react';
 import { useDispatch } from 'react-redux';
 import Character from './component/character';
 import Header from './component/Header';
+import Footer from './component/Footer';
 import CharacterDetails from './component/CharacterDetails';
 import { getCharacterData } from './redux/characters';
 
@@ -30,6 +31,7 @@ function App() {
           <Route path="/details/:id" element={<CharacterDetails buttonId={charId} />} />
         </Routes>
       </Router>
+      <Footer />
     </div>
   );
 }
