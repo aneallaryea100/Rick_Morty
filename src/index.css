@@ -263,4 +263,15 @@ li {
   .cardCharacters1 {
     width: 100%;
   }
+
+  .inputField {
+    outline: none;
+    border: none;
+    padding: 0.5rem;
+    background-color: #277bc0;
+    color: azure;
+    border-radius: 2px;
+    width: 15rem;
+    margin-bottom: 20px;
+  }
 }
