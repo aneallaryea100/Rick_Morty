@@ -15,6 +15,8 @@
 
 [Live Demo Link](https://regal-fox-cbfb6c.netlify.app/)
 
+# Website image
+![rick and morty](./src/images/ricky.png)
 
 ## Set up(To get a local copy up and running follow these simple example steps.)
 * Clone this repo : https://github.com/aneallaryea100/Rick_Morty.gitLeaderboard.git
