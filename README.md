@@ -13,13 +13,13 @@
 
 ## Live Demo
 
-[Live Demo Link](https://regal-fox-cbfb6c.netlify.app/)
+[Live Demo Link](https://rickkyandmorty.netlify.app/)
 
 # Website image
 ![rick and morty](./src/images/ricky.png)
 
 ## Set up(To get a local copy up and running follow these simple example steps.)
-* Clone this repo : https://github.com/aneallaryea100/Rick_Morty.gitLeaderboard.git
+* Clone this repo : https://github.com/aneallaryea100/Rick_Morty.git
 * Run npm install if you don't have node.js installed on your computer.
 * Run npm run build and npm start in your terminal to get the project running.
 
