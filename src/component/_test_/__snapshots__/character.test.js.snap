@@ -3,5 +3,20 @@
 exports[`Character test snapshot 1`] = `
 <div
   className="characterMainContainer"
-/>
+>
+  <div
+    className="layoutCharInput"
+  >
+    <input
+      className="inputField"
+      onChange={[Function]}
+      placeholder="Search..."
+      type="text"
+      value=""
+    />
+    <div
+      className="theCardHolders"
+    />
+  </div>
+</div>
 `;

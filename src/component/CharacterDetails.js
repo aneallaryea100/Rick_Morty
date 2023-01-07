@@ -16,7 +16,12 @@ function CharacterDetails(props) {
     dispatch(getCharacterData()).unwrap();
   }, []);
   return (
-    <>
+    <div>
+      <Link to="/">
+        <button className="backBtn" type="button">
+          Back
+        </button>
+      </Link>
       {checkCharacterId.map((character) => (
         <div key={character.id} className="containerDetail">
           <div className="imageCharacter">
@@ -28,34 +33,29 @@ function CharacterDetails(props) {
           </div>
           <div className="listDetail">
             <li>
-              Name:
+              <p>Name:</p>
               {character.name}
             </li>
             <li>
-              Status:
+              <p>Status:</p>
               {character.status}
             </li>
             <li>
-              Gender:
+              <p>Gender:</p>
               {character.gender}
             </li>
             <li>
-              Origin:
+              <p>Origin:</p>
               {character.origin}
             </li>
             <li>
-              Location:
+              <p>Location:</p>
               {character.location}
             </li>
-            <Link to="/">
-              <button className="backBtn" type="button">
-                Back
-              </button>
-            </Link>
           </div>
         </div>
       ))}
-    </>
+    </div>
   );
 }
 

@@ -1,80 +1,97 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`CharacterList test snapshot 1`] = `
-Array [
+<div
+  className="layoutCharInput"
+>
+  <input
+    className="inputField"
+    onChange={[Function]}
+    placeholder="Search..."
+    type="text"
+    value=""
+  />
   <div
-    className="cardMaincontainer"
+    className="theCardHolders"
   >
-    <div>
+    <div
+      className="cardMaincontainer"
+    >
       <div
-        className="imageContainer"
+        className="cardCharacters1"
       >
-        <img
-          alt="hekko"
-          className="imageCharacterCard"
-          src="fge.jpeg"
-        />
-      </div>
-      <div
-        className="cardFooter"
-      >
-        <p
-          className="nameCharacter"
+        <div
+          className="imageContainer"
         >
-          hekko
-        </p>
-        <button
-          className="clickBtnCard"
-          type="button"
+          <img
+            alt="hekko"
+            className="imageCharacterCard"
+            src="fge.jpeg"
+          />
+        </div>
+        <div
+          className="cardFooter"
         >
-          <a
-            className="detailedLink"
-            href="/details/1"
-            id={1}
-            onClick={[Function]}
+          <p
+            className="nameCharacter"
           >
-            Details
-          </a>
-        </button>
+            hekko
+          </p>
+          <button
+            className="clickBtnCard"
+            type="button"
+          >
+            <a
+              className="detailedLink"
+              href="/details/1"
+              id={1}
+              onClick={[Function]}
+            >
+              Details
+            </a>
+          </button>
+        </div>
       </div>
     </div>
-  </div>,
-  <div
-    className="cardMaincontainer"
-  >
-    <div>
+    <div
+      className="cardMaincontainer"
+    >
       <div
-        className="imageContainer"
+        className="cardCharacters1"
       >
-        <img
-          alt="hekko"
-          className="imageCharacterCard"
-          src="fllge.jpeg"
-        />
-      </div>
-      <div
-        className="cardFooter"
-      >
-        <p
-          className="nameCharacter"
+        <div
+          className="imageContainer"
         >
-          hekko
-        </p>
-        <button
-          className="clickBtnCard"
-          type="button"
+          <img
+            alt="hekko"
+            className="imageCharacterCard"
+            src="fllge.jpeg"
+          />
+        </div>
+        <div
+          className="cardFooter"
         >
-          <a
-            className="detailedLink"
-            href="/details/2"
-            id={2}
-            onClick={[Function]}
+          <p
+            className="nameCharacter"
           >
-            Details
-          </a>
-        </button>
+            hekko
+          </p>
+          <button
+            className="clickBtnCard"
+            type="button"
+          >
+            <a
+              className="detailedLink"
+              href="/details/2"
+              id={2}
+              onClick={[Function]}
+            >
+              Details
+            </a>
+          </button>
+        </div>
       </div>
     </div>
-  </div>,
-]
+  </div>
+</div>
 `;

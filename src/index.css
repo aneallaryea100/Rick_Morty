@@ -1,5 +1,61 @@
 body {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #fff;
+  margin: 0;
+}
+
+.headerDiv {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #1984dc;
+  margin-bottom: 20px;
+}
+
+.headerIcons {
+  display: flex;
+  gap: 14px;
+}
+
+.mic {
+  width: 30px;
+  height: 35px;
+}
+
+.setting {
+  width: 30px;
+  height: 35px;
+}
+
+.gitHubIcon {
+  color: azure;
+  cursor: pointer;
+}
+
+.inputSearchDiv {
+  display: flex;
+  justify-content: center;
+}
+
+.inputField {
+  outline: none;
+  border: none;
+  padding: 0.5rem;
+  background-color: #277bc0;
+  color: azure;
+  border-radius: 2px;
+  width: 25rem;
+  margin-bottom: 20px;
+}
+
+.searchIcon {
+  background-color: #277bc0;
+  color: azure;
+  padding: 0.5rem;
+}
+
+::placeholder {
+  color: azure;
 }
 
 li {
@@ -11,8 +67,7 @@ li {
 }
 
 .headerText {
-  color: #277bc0;
-  margin: 1rem 6rem;
+  color: #dce3e9;
 }
 
 .characterMainContainer {
@@ -22,14 +77,28 @@ li {
   justify-content: center;
 }
 
+.layoutCharInput {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .imageContainer {
   width: 35%;
+}
+
+.theCardHolders {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .cardMaincontainer {
   border-radius: 2%;
   border: 2px solid #277bc0;
-  margin: 1rem;
+  margin: 0.2rem;
+  background-color: #277bc0;
 }
 
 .cardFooter {
@@ -61,7 +130,7 @@ li {
 
 .containerDetail {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   margin: 10rem auto;
   background-color: #277bc0;
   width: 60%;
@@ -69,33 +138,140 @@ li {
 
 .backBtn {
   border: none;
-  background-color: azure;
+  background-color: #277bc0;
   width: 7rem;
-  color: #277bc0;
+  color: azure;
   padding: 0.3rem;
   border-radius: 2px;
   right: 18rem;
   bottom: 15rem;
+  cursor: pointer;
+  text-decoration: none;
 }
 
-@media only screen and (max-width: 786px) {
-  body {
-    background-color: lightblue;
+.imageCharacter {
+  width: 50.99%;
+}
+
+.mainImage {
+  width: 100%;
+}
+
+.listDetail li {
+  display: flex;
+  align-items: center;
+}
+
+.listDetail li p {
+  margin-right: 0.5rem;
+}
+
+.footer {
+  background-color: #1984dc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #dce3e9;
+}
+
+@media only screen and (max-width: 768px) {
+  .headerDiv {
+    display: flex;
+    align-items: center;
+    background-color: #1984dc;
+    margin-bottom: 20px;
+  }
+
+  .theCardHolders {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    margin-top: 48px;
+  }
+
+  .cardMaincontainer {
+    border: 2px solid #277bc0;
+    margin: 0.1rem;    /* background-color: #277bc0; */
+    padding: 20px;
+  }
+
+  .theCardHolders > .cardMaincontainer:nth-child(4n-1),
+  .theCardHolders > .cardMaincontainer:nth-child(4n-2) {
+    background: #86c2f3;
   }
 
   .imageContainer {
-    width: 20%;
+    width: 100%;
+  }
+
+  .imageCharacterCard {
+    width: 100%;
+  }
+
+  .cardFooter {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    background-color: transparent;
   }
 
   .backBtn {
     border: none;
     background-color: #277bc0;
-    position: absolute;
     width: 7rem;
     color: azure;
     padding: 0.3rem;
     border-radius: 2px;
-    right: 15rem;
-    bottom: 7rem;
+    right: 18rem;
+    bottom: 15rem;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  .clickBtnCard {
+    border: none;
+    width: 7rem;
+    height: 1rem;
+    background-color: transparent;
+  }
+
+  .clickBtnCard a {
+    color: azure;
+    text-decoration: none;
+    font-size: larger;
+    font-style: oblique;
+  }
+
+  .containerDetail {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 10rem auto;
+    background-color: #277bc0;
+    width: 60%;
+  }
+
+  .imageCharacter {
+    width: 99.99%;
+  }
+
+  .mainImage {
+    width: 100%;
+  }
+
+  .cardCharacters1 {
+    width: 100%;
+  }
+
+  .inputField {
+    outline: none;
+    border: none;
+    padding: 0.5rem;
+    background-color: #277bc0;
+    color: azure;
+    border-radius: 2px;
+    width: 15rem;
+    margin-bottom: 20px;
   }
 }
